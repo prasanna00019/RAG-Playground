@@ -1,32 +1,15 @@
 # RAG-Playground
-A comprehensive collection of RAG (Retrieval Augmented Generation) implementations 📚✨, from foundational concepts to advanced agentic 🤖 and knowledge graph 🌐 RAGs
----
 
-## 📌 Featured Project: Dynamic Prompt-Aware RAG
+A curated collection of RAG (Retrieval-Augmented Generation) projects covering foundational to advanced techniques, including prompt routing, agentic reasoning, and HyDe-style retrieval.
 
-Explore my **first RAG project**, where I started with basic LlamaIndex retrieval and evolved it into a **tone-aware, prompt-routed RAG system**.
+## 🗂️ Projects Overview
 
-🧠 It dynamically detects the intent of user queries — such as compare, summarize, elaborate, or creative — and routes them to the appropriate prompt template using LLM-based classification.
-
-👉 [View Project File → dynamic_aware_rag.ipynb](Dynamic_Prompt_Aware_RAG)
-
----
-
-## 🚀 New Project: Agentic Multi-Document RAG
-
-Dive into my **second RAG project**, where I build a powerful **AI agent that intelligently navigates multiple document sources**.
-
-🧠 Instead of combining all documents into a single vector store, I maintain **separate chunked vector indices** for each document type (like AWS Lambda, EC2, etc.).
-
-🤖 The agent performs:
-- Query decomposition using `break_question`
-- Document classification using `classify_user_query`
-- Intelligent retrieval from the correct document engine(s) using `RUN_RAG`
-- Optional web fallback with `search_web`
-- Step-by-step reasoning using the ReAct framework
-
-⚡ This modular architecture is **more efficient and scalable** than traditional monolithic RAG setups and mimics real-world QA systems.
-
-👉 [View Project File → Multi_Doc_Agentic_RAG.ipynb](Multi_Doc_Agentic_RAG)
+| Project Name                  | Description                                                                                   | Techniques Used                                                        | Link                             |
+| ----------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------- |
+| **Dynamic Prompt-Aware RAG**  | Routes user queries to the best prompt template based on intent (e.g., summarize, compare).   | Prompt routing, LLM-based intent classification, LlamaIndex            | [View](Dynamic_Prompt_Aware_RAG) |
+| **Agentic Multi-Doc RAG**     | Agent breaks query into sub-questions and retrieves from relevant document-specific indices.  | ReAct agent, query decomposition, per-doc vector indices, web fallback | [View](Multi_Doc_Agentic_RAG)    |
+| **HyDe RAG (Single + Multi)** | Generates hypothetical answers to improve retrieval; supports single and multi-doc averaging. | Hypothetical generation, embedding reranking, dot product similarity   | [View](HyDe_RAG)                 |
 
 ---
+
+> Built with ❤️ for scalable, modular experimentation in the world of RAG.
