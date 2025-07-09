@@ -2,6 +2,7 @@
 
 This project implements **HyDe RAG** (Hypothetical Document Enhanced Retrieval-Augmented Generation), an advanced RAG pipeline that improves retrieval and answer generation by leveraging hypothetical answers. Instead of retrieving context solely based on the user query, HyDe RAG first generates one or more hypothetical answers to the query, embeds them, and uses these embeddings to retrieve the most relevant document chunks. This approach can improve retrieval quality, especially for complex or ambiguous queries.
 
+Inspired from the research paper of HyDe : [Precise Zero-Shot Dense Retrieval without Relevance Labels](https://arxiv.org/pdf/2212.10496)
 ---
 
 ## Features ✨
@@ -47,6 +48,11 @@ This project implements **HyDe RAG** (Hypothetical Document Enhanced Retrieval-A
 
 ---
 
+## 📖 References
+
+- [HyDe RAG Paper (arXiv:2212.10496)](https://arxiv.org/pdf/2212.10496)
+
+---
 # Custom Chunk Retrieval Implementation 🛠️
 
 Unlike out-of-the-box retrieval solutions, this project implements chunk retrieval from scratch for maximum flexibility and transparency:
