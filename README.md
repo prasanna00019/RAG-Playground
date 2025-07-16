@@ -15,6 +15,7 @@ A curated collection of RAG (Retrieval-Augmented Generation) projects covering f
 | **Self RAG** | Dynamically decides whether to use retrieved information and how to best utilize it in generating responses, aiming to produce more accurate, relevant, and useful outputs. | Retrieval decision, context filtering, support & utility scoring, prompt-based critique | [View](Self_RAG) |
 |**Fusion RAG** | Leverages multiple query reformulations, document retrieval, and robust re-ranking to generate high-quality, contextually rich responses using LLMs | Re-Ranking(RRF score), Query Reformulation |[View](Fusion_RAG)
 |**RAPTOR RAG** |  Organizes document chunks into a hierarchical tree using recursive clustering and abstractive summarization | Gausian Mixture Model(GMM), semantic chunking | [View](RAPTOR_RAG)
+|**Knowledge Graph RAG** | Builds knowledge graph over the data and gives context aware responses | Graph data structure  |[View](KG_RAG) 
 ---
 
 > Built with ❤️ for scalable, modular experimentation in the world of RAG.
