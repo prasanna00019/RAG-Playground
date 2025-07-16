@@ -4,7 +4,7 @@ A lightweight, Neo4j-free implementation of **Knowledge Graph Retrieval-Augmente
 - 🧾 LlamaIndex's `KnowledgeGraphIndex` + `SimpleGraphStore`
 - 🔍 Google Gemini 2.5 + Gemini Embeddings (`text-embedding-004`)
 - 📄 PDF document loader and triplet extractor
-- 🕸 PyVis network visualization for the knowledge graph [VIEW](/KG_RAG/KG_graph.html)
+- 🕸 PyVis network visualization for the knowledge graph 
 - 📬 Hybrid querying with graph context and custom prompting
 
 ---
@@ -35,7 +35,7 @@ Unlike vector-only RAG, KG-RAG gives the LLM a **domain model** of the data — 
 2. 🧠 Split into chunks using `SentenceSplitter`
 3. 🔍 Extract triplets (subject-predicate-object) via `KnowledgeGraphIndex`
 4. 🗃️ Store triplets in an in-memory `SimpleGraphStore`
-5. 🌐 Visualize the graph with PyVis [VIEW](/KG_RAG/KG_graph.html)
+5. 🌐 Visualize the graph with PyVis 
 6. 💬 Run a hybrid query with Gemini and display the answer
 
 ---
