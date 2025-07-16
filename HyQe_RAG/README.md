@@ -59,6 +59,17 @@ This project implements the **HyQe RAG** (Hypothetical Query Embedding Retrieval
 
 ---
 
+## CITATION 
+```bibtex 
+@inproceedings{zhou2024hyqe,
+  title={HyQE: Ranking Contexts with Hypothetical Query Embeddings},
+  author={Zhou, Weichao and Zhang, Jiaxin and Hasson, Hilaf and Singh, Anu and Li, Wenchao},
+  journal={Findings of the Association for Computational Linguistics: EMNLP 2024},
+  year={2024}
+}
+```
+---
+
 ## 📚 Reference
 
 This implementation is directly inspired by and follows the methodology from:  

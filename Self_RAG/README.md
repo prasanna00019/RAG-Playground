@@ -51,6 +51,17 @@ This notebook demonstrates a workflow inspired by the [Self-RAG paper (arXiv:231
 - **Modular Design**: Clean, reusable components.
 
 ---
+## CITATION
+```bibtex
+@article{asai2023selfrag,
+      author    = {Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avirup and Hajishirzi, Hannaneh},
+      title     = {{Self-RAG}: Learning to Retrieve, Generate, and Critique through Self-Reflection},
+      year      = {2023},
+     journal    = {arXiv preprint arXiv:2310.11511},
+     url        = {https://arxiv.org/abs/2310.11511}
+    }
+```
+---
 
 ## 📚 References
 

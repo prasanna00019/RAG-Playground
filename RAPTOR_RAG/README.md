@@ -55,6 +55,17 @@ This implementation is inspired by:
 
 ---
 
+## CITATION
+ ```bibtex
+ @inproceedings{sarthi2024raptor,
+    title={RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval},
+    author={Sarthi, Parth and Abdullah, Salman and Tuli, Aditi and Khanna, Shubh and Goldie, Anna and Manning, Christopher D.},
+    booktitle={International Conference on Learning Representations (ICLR)},
+    year={2024}
+}
+```
+---
+
 ## 💡 Acknowledgements
 
 - Thanks to the RAPTOR authors for their innovative work!

@@ -43,7 +43,11 @@ This leads to more precise and contextually relevant retrieval, bridging the gap
 - Modular and extensible code
 
 ---
-
+## CITATION 
+``` 
+Vake, Domen and Vičič, Jernej and Tošić, Aleksandar, Bridging the Question-Answer Gap in Retrieval-Augmented Generation: Hypothetical Prompt Embeddings. Available at SSRN: https://ssrn.com/abstract=5139335 or http://dx.doi.org/10.2139/ssrn.5139335
+```
+---
 ## 📖 References
 
 - **Bridging the Question-Answer Gap in Retrieval-Augmented Generation: Hypothetical Prompt Embeddings**  

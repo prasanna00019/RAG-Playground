@@ -37,6 +37,23 @@ print(response)
 ```
 
 ---
+## CITATION
+```bibtex
+@article{Rackauckas_2024,
+   title={Rag-Fusion: A New Take on Retrieval Augmented Generation},
+   volume={13},
+   ISSN={2319-4111},
+   url={http://dx.doi.org/10.5121/ijnlc.2024.13103},
+   DOI={10.5121/ijnlc.2024.13103},
+   number={1},
+   journal={International Journal on Natural Language Computing},
+   publisher={Academy and Industry Research Collaboration Center (AIRCC)},
+   author={Rackauckas, Zackary},
+   year={2024},
+   month=feb, pages={37–47} }
+
+```
+---
 
 ## 📚 Reference
 

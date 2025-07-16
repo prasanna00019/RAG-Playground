@@ -47,7 +47,19 @@ Inspired from the research paper of HyDe : [Precise Zero-Shot Dense Retrieval wi
      The top-ranked chunks are provided as context to the LLM to generate the final answer. 📝
 
 ---
-
+## CITATION
+```bibtex
+@misc{gao2022precisezeroshotdenseretrieval,
+      title={Precise Zero-Shot Dense Retrieval without Relevance Labels}, 
+      author={Luyu Gao and Xueguang Ma and Jimmy Lin and Jamie Callan},
+      year={2022},
+      eprint={2212.10496},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2212.10496}, 
+}
+```
+---
 ## 📖 References
 
 - [HyDe RAG Paper (arXiv:2212.10496)](https://arxiv.org/pdf/2212.10496)
